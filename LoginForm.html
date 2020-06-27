@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+
+        <meta charset="UTF-8"/>
+        <meta type="viewport" content="width=device-width,intial scale=1.0"/>
+        <meta http-equiv="Content-Type" content="text/html;"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+
+        </script>
+        <style type="text/css">
+
+        #box{
+            width: 250px;
+            height: 400px;
+            background: #2e2e2d;
+            text-align: center;
+            margin-left: 50px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: -6px 0px 20px 1px lightgrey;
+            font-family: fantasy;
+            color: #d5b268;
+        }
+        @media screen and (min-width: 40px;) {
+            #box{
+                margin-left: 150px;
+            }
+        }
+
+        body{
+            background: #2e2e2d;
+        }
+
+        #l{
+            font-family:cursive ;
+            font-size: 40px;
+        }
+        #Password,#name,#submit{
+            border-radius: 20px;
+            padding: 6px 1px;
+            text-align: center;
+            color: white;
+            border: none;
+            outline: none;
+            box-shadow: inset 0px 0px 30px 0px #d0b697;
+            background: #c18005;
+        }
+
+        #submit{
+            padding: 5px 35px;
+            font-family: cursive;
+        }
+
+        #Password:hover,#name:hover{
+            background: black;
+        }
+
+        #submit:active{
+            background: black;
+        }
+
+        #box:hover,#l:hover{
+            color: #c98d69;
+        }
+
+        .fa{
+            color: #c18005;
+            font-size: 30px;
+        }
+
+        span{
+            word-spacing: 20px;
+        }
+
+        cite{
+            visibility: hidden;  /*anything inside the cite is not visible */
+        }
+        </style>
+    </head>
+
+    <body>
+        <div id="box">
+        <p></p>   <p></p>
+        <h2 id="l">Login</h2>
+        <form method = "post">
+            Email:  <br>
+            <input type="name" id="name" placeholder="Phone Number or Email" required/>
+            <br>
+            Password:  <br>
+            <input type="Password" name="Password" id="Password" placeholder="Enter Password" requored/>
+            <br>
+            forgotten password?
+            <br>
+            <input type="submit" id="submit" value="LOGIN"/>
+        </form> <br>
+        <i>OR <br> login using</i> <br> <br>
+
+        <span><i class="fa fa-facebook"><cite>aa</cite></i></span> <span><i class="fa fa-instagram"><cite>aa</cite></i></span> <span><i class="fa fa-twitter"></i><cite></cite></span>
+
+        </div>
+    </body>
+</html>
